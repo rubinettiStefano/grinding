@@ -18,18 +18,8 @@ public class ClasseTipo
 	//ad esempio LocalDate.of(anno,mese,giorno);
 	public static LocalDate of(int year,int month,int day)
 	{
-		//ma il compito di creare una data ora è mio
-		//io richiamerò il costruttore, ma prima posso fare quello che voglio
-		if(isValid(year,month,day))
-		{
-			LocalDate res =  new LocalDate();
-			res.day = day;
-			res.month = month;
-			res.year = year;
-			return res;
-		}
-		else
-			return null;
+	
+		
 	}
 	static boolean isValid(int year,int month,int day)
 	{
@@ -52,5 +42,27 @@ public class ClasseTipo
 	
 	//Metodi di oggetto
 	//detti anche COMPORTAMENTO
+	//Metodo = sottoprogramma, piccola parte di un programma
+	//Un programma è matematicamente una funzione fatta così
+	// O -> P(I)
+	// dove O = Output, P = programma, I = Input
+	//un programma prende in ingresso dei dati e li usa per compiere operazioni e produrre
+	//un RISULTATO
+	
+	//differenza tra METODO e FUNZIONE
+	//funzione = O -> P(I)
+	//metodo = funzione che prende come input, oltre ai parametri, lo stato dell'oggetto o 
+	//della classe su cui viene chiamata
+	
+	//INPUT SET di un metodo, informazioni in entrata
+	//parametri, proprietà dell'oggetto/classe, metodi dell'oggetto/classe
+	
+	
+	
+	
+	
+	
+	
+	
 	
 }
